@@ -70,7 +70,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 image = np.zeros((500, 500, 3), dtype=np.uint8)
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Today is Friday', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'Spoorthi V', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for displaying
 plt.title("Input Image with Text")
@@ -90,12 +90,11 @@ plt.axis('off')
 
 
 ## Output
-<img width="431" height="461" alt="image" src="https://github.com/user-attachments/assets/4dc82b33-13f3-4ef2-ba9c-8c36e8bad72c" />
+<img width="438" height="466" alt="image" src="https://github.com/user-attachments/assets/0df75b79-e7b8-4d13-b371-ab6b6675fd19" />
 
-<img width="452" height="455" alt="image" src="https://github.com/user-attachments/assets/709ffc74-afb7-4b97-9169-eb46a6eddf02" />
+<img width="467" height="455" alt="image" src="https://github.com/user-attachments/assets/05703969-31e5-41b8-9bfd-5e62d7d3dcc1" />
 
-<img width="443" height="460" alt="image" src="https://github.com/user-attachments/assets/66158911-fc77-4f46-8658-e3aed4c43acd" />
-
+<img width="447" height="470" alt="image" src="https://github.com/user-attachments/assets/b47212b6-9834-4e29-a02d-04cd8b8dce67" />
 
 ## Result
 
